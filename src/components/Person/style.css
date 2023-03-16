@@ -1,0 +1,35 @@
+.container-person {
+    background-color: rgba(239, 239, 239, 0.342);
+    border-radius: 3px;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.container-person:hover{
+    transform: scale(1.1);
+}
+
+.container-person-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-family: Montserrat;
+}
+
+.container-person-info h3 {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.container-person-img img{
+    width: 100px;
+    height: 110px;
+    border-radius: 2px;
+}
